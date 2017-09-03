@@ -5,7 +5,7 @@ var BundleTracker = require('webpack-bundle-tracker')
 module.exports = {
 context: __dirname,
 
-entry: './assets/js/index.js',
+entry: './assets/js/index.home.js',
 
 output: {
     path: path.resolve('./assets/bundles/'),
@@ -18,10 +18,16 @@ plugins: [
 
 module: {
     loaders: [
-    { test: /\.js$/, loader: 'babel-loader', exclude: /node_modules/ },
-    { test: /\.jsx$/, loader: 'babel-loader', exclude: /node_modules/ }
 
+    { test: /\.js$/, loader: 'babel-loader', exclude: /node_modules/ },
+    { test: /\.jsx$/, loader: 'babel-loader', exclude: /node_modules/ },
+    { test: /\.css$/, loader: "style-loader!css-loader" , exclude: /node_modules/ },
+    { test: /\.less$/, loader: "style!css!less", exclude: /node_modules/ }
     ],
+
+    resolve: {
+        extensions: ['', '.js', '.jsx', '.less', '.css']
+    }
 },
 
 }

@@ -124,6 +124,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+STATIC_ROOT = 'static'
 
 WEBPACK_LOADER = {
     'DEFAULT': {

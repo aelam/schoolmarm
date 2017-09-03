@@ -1,3 +1,4 @@
 *.sqlite3
+bundles/
 node_modules/
 *.pyc
