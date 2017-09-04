@@ -1,3 +1,4 @@
 {
-    "python.pythonPath": "/usr/local/bin/python3"
+    "python.linting.pylintArgs": ["--load-plugins", "pylint_django"],
+    "python.envFile": "${workspaceRoot}/.python-version"
 }
