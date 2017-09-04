@@ -14,3 +14,9 @@
 ## webpack设置问题
 
 现在不能实时更新
+
+## 安装工具
+
+```lang=shell
+npm install -g webpack
+```

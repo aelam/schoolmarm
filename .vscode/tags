@@ -1,0 +1,463 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+0001_initial.py	../schoolapp/migrations/0001_initial.py	1;"	kind:file	line:1
+0002_auto_20170903_0907.py	../schoolapp/migrations/0002_auto_20170903_0907.py	1;"	kind:file	line:1
+0003_auto_20170903_0907.py	../schoolapp/migrations/0003_auto_20170903_0907.py	1;"	kind:file	line:1
+0004_auto_20170903_0912.py	../schoolapp/migrations/0004_auto_20170903_0912.py	1;"	kind:file	line:1
+0005_auto_20170903_0915.py	../schoolapp/migrations/0005_auto_20170903_0915.py	1;"	kind:file	line:1
+0006_auto_20170903_0916.py	../schoolapp/migrations/0006_auto_20170903_0916.py	1;"	kind:file	line:1
+0007_auto_20170903_0917.py	../schoolapp/migrations/0007_auto_20170903_0917.py	1;"	kind:file	line:1
+0008_marketchannel_create_at.py	../schoolapp/migrations/0008_marketchannel_create_at.py	1;"	kind:file	line:1
+0009_auto_20170903_0923.py	../schoolapp/migrations/0009_auto_20170903_0923.py	1;"	kind:file	line:1
+0010_auto_20170903_1019.py	../schoolapp/migrations/0010_auto_20170903_1019.py	1;"	kind:file	line:1
+0011_auto_20170903_1105.py	../schoolapp/migrations/0011_auto_20170903_1105.py	1;"	kind:file	line:1
+0012_auto_20170903_1233.py	../schoolapp/migrations/0012_auto_20170903_1233.py	1;"	kind:file	line:1
+ALLOWED_HOSTS	../schoolcrm/settings.py	/^ALLOWED_HOSTS = []$/;"	kind:variable	line:28
+AUTH_PASSWORD_VALIDATORS	../schoolcrm/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	kind:variable	line:92
+AppConfig	../schoolapp/apps.py	/^from django.apps import AppConfig$/;"	kind:namespace	line:1
+BASE_DIR	../schoolcrm/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:16
+CHANNEL_TYPE_CHOICES	../schoolapp/models.py	/^CHANNEL_TYPE_CHOICES = ($/;"	kind:variable	line:10
+CONTRACT_STATUS	../schoolapp/models.py	/^CONTRACT_STATUS = ($/;"	kind:variable	line:213
+CORS_ORIGIN_ALLOW_ALL	../schoolcrm/settings.py	/^CORS_ORIGIN_ALLOW_ALL = True$/;"	kind:variable	line:143
+CUSTOMER_CONTACT_SOURCE	../schoolapp/models.py	/^CUSTOMER_CONTACT_SOURCE = ($/;"	kind:variable	line:34
+Center	../schoolapp/models.py	/^class Center(models.Model):$/;"	kind:class	line:99
+ClassRoom	../schoolapp/models.py	/^class ClassRoom(models.Model):$/;"	kind:class	line:157
+ClassRoomTimeSlotManagement	../schoolapp/models.py	/^class ClassRoomTimeSlotManagement(models.Model):$/;"	kind:class	line:173
+ClassTimeSlot	../schoolapp/models.py	/^class ClassTimeSlot(models.Model):$/;"	kind:class	line:168
+ContractManagement	../schoolapp/models.py	/^class ContractManagement(models.Model):$/;"	kind:class	line:219
+CourseConsultant	../schoolapp/models.py	/^class CourseConsultant(models.Model):$/;"	kind:class	line:77
+CoursePlan	../schoolapp/models.py	/^class CoursePlan(models.Model):$/;"	kind:class	line:203
+DATABASES	../schoolcrm/settings.py	/^DATABASES = {$/;"	kind:variable	line:81
+DEBUG	../schoolcrm/settings.py	/^DEBUG = True$/;"	kind:variable	line:26
+Department	../schoolapp/models.py	/^class Department(models.Model):$/;"	kind:class	line:150
+GENDER_CHOICES	../schoolapp/models.py	/^GENDER_CHOICES = ($/;"	kind:variable	line:25
+GenericRelation	../schoolapp/models.py	/^from django.contrib.contenttypes.fields import GenericRelation$/;"	kind:namespace	line:4
+INSTALLED_APPS	../schoolcrm/settings.py	/^INSTALLED_APPS = [$/;"	kind:variable	line:33
+LANGUAGE_CODE	../schoolcrm/settings.py	/^LANGUAGE_CODE = 'zh-hans'$/;"	kind:variable	line:111
+MIDDLEWARE	../schoolcrm/settings.py	/^MIDDLEWARE = [$/;"	kind:variable	line:45
+MarketChannel	../schoolapp/models.py	/^class MarketChannel(models.Model):$/;"	kind:class	line:125
+Meta	../schoolapp/models.py	/^    class Meta:$/;"	kind:class	line:106
+Meta	../schoolapp/models.py	/^    class Meta:$/;"	kind:class	line:120
+Meta	../schoolapp/models.py	/^    class Meta:$/;"	kind:class	line:143
+Meta	../schoolapp/models.py	/^    class Meta:$/;"	kind:class	line:163
+Meta	../schoolapp/models.py	/^    class Meta:$/;"	kind:class	line:198
+Meta	../schoolapp/models.py	/^    class Meta:$/;"	kind:class	line:229
+Meta	../schoolapp/models.py	/^    class Meta:$/;"	kind:class	line:72
+Meta	../schoolapp/models.py	/^    class Meta:$/;"	kind:class	line:85
+Migration	../schoolapp/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:10
+Migration	../schoolapp/migrations/0002_auto_20170903_0907.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:9
+Migration	../schoolapp/migrations/0003_auto_20170903_0907.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	../schoolapp/migrations/0004_auto_20170903_0912.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	../schoolapp/migrations/0005_auto_20170903_0915.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:9
+Migration	../schoolapp/migrations/0006_auto_20170903_0916.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:9
+Migration	../schoolapp/migrations/0007_auto_20170903_0917.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:9
+Migration	../schoolapp/migrations/0008_marketchannel_create_at.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:9
+Migration	../schoolapp/migrations/0009_auto_20170903_0923.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	../schoolapp/migrations/0010_auto_20170903_1019.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	../schoolapp/migrations/0011_auto_20170903_1105.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	../schoolapp/migrations/0012_auto_20170903_1233.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:10
+Note	../schoolapp/models.py	/^class Note(models.Model):$/;"	kind:class	line:41
+OPERATION_CHANNEL_TYPE_CHOICES	../schoolapp/models.py	/^OPERATION_CHANNEL_TYPE_CHOICES = ($/;"	kind:variable	line:15
+OperationChannel	../schoolapp/models.py	/^class OperationChannel(models.Model):$/;"	kind:class	line:112
+ROOT_URLCONF	../schoolcrm/settings.py	/^ROOT_URLCONF = 'schoolcrm.urls'$/;"	kind:variable	line:56
+STATICFILES_DIRS	../schoolcrm/settings.py	/^STATICFILES_DIRS = ($/;"	kind:variable	line:138
+STATIC_ROOT	../schoolcrm/settings.py	/^STATIC_ROOT = 'static'$/;"	kind:variable	line:128
+STATIC_URL	../schoolcrm/settings.py	/^STATIC_URL = '\/static\/'$/;"	kind:variable	line:126
+SchoolappConfig	../schoolapp/apps.py	/^class SchoolappConfig(AppConfig):$/;"	kind:class	line:4
+Staff	../schoolapp/models.py	/^class Staff(models.Model):$/;"	kind:class	line:90
+StartNewClassPlan	../schoolapp/models.py	/^class StartNewClassPlan(models.Model):$/;"	kind:class	line:179
+Student	../schoolapp/models.py	/^class Student(models.Model):$/;"	kind:class	line:45
+TEMPLATES	../schoolcrm/settings.py	/^TEMPLATES = [$/;"	kind:variable	line:58
+TIME_ZONE	../schoolcrm/settings.py	/^TIME_ZONE = 'Asia\/Shanghai'$/;"	kind:variable	line:114
+TRACE_STATUS_CHOICES	../schoolapp/models.py	/^TRACE_STATUS_CHOICES = ($/;"	kind:variable	line:30
+TemplateView	../schoolcrm/urls.py	/^from django.views.generic.base import TemplateView$/;"	kind:namespace	line:18
+TestCase	../schoolapp/tests.py	/^from django.test import TestCase$/;"	kind:namespace	line:1
+USE_I18N	../schoolcrm/settings.py	/^USE_I18N = True$/;"	kind:variable	line:116
+USE_L10N	../schoolcrm/settings.py	/^USE_L10N = True$/;"	kind:variable	line:118
+USE_TZ	../schoolcrm/settings.py	/^USE_TZ = True$/;"	kind:variable	line:120
+User	../schoolapp/models.py	/^from django.contrib.auth.models import User$/;"	kind:namespace	line:3
+WEBPACK_LOADER	../schoolcrm/settings.py	/^WEBPACK_LOADER = {$/;"	kind:variable	line:130
+WSGI_APPLICATION	../schoolcrm/settings.py	/^WSGI_APPLICATION = 'schoolcrm.wsgi.application'$/;"	kind:variable	line:75
+_	../schoolapp/models.py	/^from django.utils.translation import ugettext_lazy as _$/;"	kind:namespace	line:6
+__init__.py	../schoolapp/__init__.py	1;"	kind:file	line:1
+__init__.py	../schoolapp/migrations/__init__.py	1;"	kind:file	line:1
+__init__.py	../schoolcrm/__init__.py	1;"	kind:file	line:1
+__str__	../schoolapp/models.py	/^    def __str__(self):$/;"	kind:member	line:103
+__str__	../schoolapp/models.py	/^    def __str__(self):$/;"	kind:member	line:117
+__str__	../schoolapp/models.py	/^    def __str__(self):$/;"	kind:member	line:140
+__str__	../schoolapp/models.py	/^    def __str__(self):$/;"	kind:member	line:153
+__str__	../schoolapp/models.py	/^    def __str__(self):$/;"	kind:member	line:160
+__str__	../schoolapp/models.py	/^    def __str__(self):$/;"	kind:member	line:195
+__str__	../schoolapp/models.py	/^    def __str__(self):$/;"	kind:member	line:69
+__str__	../schoolapp/models.py	/^    def __str__(self):$/;"	kind:member	line:82
+__str__	../schoolapp/models.py	/^    def __str__(self):$/;"	kind:member	line:95
+address	../schoolapp/models.py	/^    address = models.CharField(max_length=200, blank=True, null=True)$/;"	kind:variable	line:101
+admin	../schoolapp/admin.py	/^from django.contrib import admin$/;"	kind:namespace	line:1
+admin	../schoolcrm/urls.py	/^from django.contrib import admin$/;"	kind:namespace	line:17
+admin.py	../schoolapp/admin.py	1;"	kind:file	line:1
+application	../schoolcrm/wsgi.py	/^application = get_wsgi_application()$/;"	kind:variable	line:16
+apps.py	../schoolapp/apps.py	1;"	kind:file	line:1
+birth	../schoolapp/models.py	/^    birth = models.DateField(max_length=100, null=True, blank=True, verbose_name="生日")$/;"	kind:variable	line:57
+center	../schoolapp/models.py	/^    center = models.ForeignKey(Center)$/;"	kind:variable	line:181
+center	../schoolapp/models.py	/^    center = models.ForeignKey(Center, verbose_name="中心")$/;"	kind:variable	line:136
+channel_id	../schoolapp/models.py	/^    channel_id = models.CharField(max_length=200, null=False, blank=False,$/;"	kind:variable	line:126
+channel_type	../schoolapp/models.py	/^    channel_type = models.CharField(max_length=20, blank=False, null=False, choices=CHANNEL_TYPE_CHOICES,$/;"	kind:variable	line:129
+chinese_teacher	../schoolapp/models.py	/^    chinese_teacher = models.ForeignKey(Staff, related_name="chinese_teacher", verbose_name="中教老师")$/;"	kind:variable	line:188
+choices	../schoolapp/models.py	/^                             choices=OPERATION_CHANNEL_TYPE_CHOICES,$/;"	kind:variable	line:114
+class_name	../schoolapp/models.py	/^    class_name = models.CharField(max_length=100, null=False, blank=False, verbose_name="班级名称")$/;"	kind:variable	line:185
+class_room	../schoolapp/models.py	/^    class_room = models.ForeignKey(ClassRoom)$/;"	kind:variable	line:175
+class_room	../schoolapp/models.py	/^    class_room = models.ForeignKey(ClassRoom, verbose_name="上课教室")$/;"	kind:variable	line:184
+contact_source	../schoolapp/models.py	/^    contact_source = models.CharField(max_length=100, blank=True, null=True, verbose_name="方式", choices=CUSTOMER_CONTACT_SOURCE)$/;"	kind:variable	line:63
+contract_id	../schoolapp/models.py	/^    contract_id = models.AutoField(primary_key=True)$/;"	kind:variable	line:220
+contract_status	../schoolapp/models.py	/^    contract_status = models.CharField(max_length=200, blank=False, null=False,$/;"	kind:variable	line:224
+course_duration	../schoolapp/models.py	/^    course_duration = models.FloatField(null=False, blank=False, verbose_name="总课时")$/;"	kind:variable	line:193
+course_plan	../schoolapp/models.py	/^    course_plan = models.ForeignKey(CoursePlan, verbose_name="课程")$/;"	kind:variable	line:222
+create_at	../schoolapp/models.py	/^    create_at = models.DateTimeField(auto_now_add=True, editable=False, verbose_name="添加时间")$/;"	kind:variable	line:138
+created_at	../schoolapp/models.py	/^    created_at = models.DateTimeField(max_length=100, null=True, blank=True, verbose_name="登记日期")$/;"	kind:variable	line:58
+db	../schoolapp/migrations/0001_initial.py	/^import django.db.models.deletion$/;"	kind:namespace	line:7
+db	../schoolapp/migrations/0002_auto_20170903_0907.py	/^import django.db.models.deletion$/;"	kind:namespace	line:6
+db	../schoolapp/migrations/0012_auto_20170903_1233.py	/^import django.db.models.deletion$/;"	kind:namespace	line:7
+deletion	../schoolapp/migrations/0001_initial.py	/^import django.db.models.deletion$/;"	kind:namespace	line:7
+deletion	../schoolapp/migrations/0002_auto_20170903_0907.py	/^import django.db.models.deletion$/;"	kind:namespace	line:6
+deletion	../schoolapp/migrations/0012_auto_20170903_1233.py	/^import django.db.models.deletion$/;"	kind:namespace	line:7
+dependencies	../schoolapp/migrations/0001_initial.py	/^    dependencies = [$/;"	kind:variable	line:14
+dependencies	../schoolapp/migrations/0002_auto_20170903_0907.py	/^    dependencies = [$/;"	kind:variable	line:11
+dependencies	../schoolapp/migrations/0003_auto_20170903_0907.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	../schoolapp/migrations/0004_auto_20170903_0912.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	../schoolapp/migrations/0005_auto_20170903_0915.py	/^    dependencies = [$/;"	kind:variable	line:11
+dependencies	../schoolapp/migrations/0006_auto_20170903_0916.py	/^    dependencies = [$/;"	kind:variable	line:11
+dependencies	../schoolapp/migrations/0007_auto_20170903_0917.py	/^    dependencies = [$/;"	kind:variable	line:11
+dependencies	../schoolapp/migrations/0008_marketchannel_create_at.py	/^    dependencies = [$/;"	kind:variable	line:11
+dependencies	../schoolapp/migrations/0009_auto_20170903_0923.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	../schoolapp/migrations/0010_auto_20170903_1019.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	../schoolapp/migrations/0011_auto_20170903_1105.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	../schoolapp/migrations/0012_auto_20170903_1233.py	/^    dependencies = [$/;"	kind:variable	line:12
+discount_fee	../schoolapp/models.py	/^    discount_fee = models.FloatField(blank=False, null=False, verbose_name="减免金额")$/;"	kind:variable	line:207
+django	../manage.py	/^            import django$/;"	kind:namespace	line:14
+django	../schoolapp/migrations/0001_initial.py	/^import django.db.models.deletion$/;"	kind:namespace	line:7
+django	../schoolapp/migrations/0002_auto_20170903_0907.py	/^import django.db.models.deletion$/;"	kind:namespace	line:6
+django	../schoolapp/migrations/0008_marketchannel_create_at.py	/^import django.utils.timezone$/;"	kind:namespace	line:6
+django	../schoolapp/migrations/0012_auto_20170903_1233.py	/^import django.db.models.deletion$/;"	kind:namespace	line:7
+email	../schoolapp/models.py	/^    email = models.EmailField(max_length=100, null=True, blank=True, verbose_name="电子邮箱")$/;"	kind:variable	line:60
+endTime	../schoolapp/models.py	/^    endTime = models.TimeField(max_length=100, null=False, blank=False)$/;"	kind:variable	line:170
+end_date	../schoolapp/models.py	/^    end_date = models.DateField(max_length=100, null=False, blank=False, verbose_name="结束日期")$/;"	kind:variable	line:183
+english_name	../schoolapp/models.py	/^    english_name = models.CharField(max_length=100, null=True, blank=True, verbose_name="英文名")$/;"	kind:variable	line:49
+english_teacher	../schoolapp/models.py	/^    english_teacher = models.ForeignKey(Staff, related_name="english_teacher", verbose_name="外教老师")$/;"	kind:variable	line:189
+execute_from_command_line	../manage.py	/^        from django.core.management import execute_from_command_line$/;"	kind:namespace	line:8
+fee	../schoolapp/models.py	/^    fee = models.PositiveIntegerField(blank=False, null=False, default=0, verbose_name="费用")$/;"	kind:variable	line:132
+field	../schoolapp/migrations/0002_auto_20170903_0907.py	/^            field=models.BooleanField(default=bool, verbose_name='启用'),$/;"	kind:variable	line:36
+field	../schoolapp/migrations/0002_auto_20170903_0907.py	/^            field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='schoolapp.OperationChannel', verbose_name='运营渠道'),$/;"	kind:variable	line:41
+field	../schoolapp/migrations/0002_auto_20170903_0907.py	/^            field=models.PositiveIntegerField(auto_created=True, verbose_name='渠道ID'),$/;"	kind:variable	line:26
+field	../schoolapp/migrations/0002_auto_20170903_0907.py	/^            field=models.PositiveIntegerField(default=0, verbose_name='费用'),$/;"	kind:variable	line:31
+field	../schoolapp/migrations/0003_auto_20170903_0907.py	/^            field=models.PositiveIntegerField(blank=True, null=True),$/;"	kind:variable	line:18
+field	../schoolapp/migrations/0004_auto_20170903_0912.py	/^            field=models.CharField(blank=True, max_length=100, null=True),$/;"	kind:variable	line:28
+field	../schoolapp/migrations/0004_auto_20170903_0912.py	/^            field=models.CharField(blank=True, max_length=100, null=True),$/;"	kind:variable	line:33
+field	../schoolapp/migrations/0004_auto_20170903_0912.py	/^            field=models.CharField(blank=True, max_length=200, null=True),$/;"	kind:variable	line:23
+field	../schoolapp/migrations/0004_auto_20170903_0912.py	/^            field=models.CharField(choices=[('转介绍', '转介绍'), ('流动收单', '流动收单'), ('定点收单', '定点收单'), ('中心市场活动', '中心市场活动'), ('异业合作活动', '异业合作活动'), ('社区公益活动', '社区公益活动')], max_length=20, verbose_name='运营渠道'),$/;"	kind:variable	line:38
+field	../schoolapp/migrations/0005_auto_20170903_0915.py	/^            field=models.PositiveIntegerField(auto_created=True, default=uuid.uuid4, verbose_name='渠道ID'),$/;"	kind:variable	line:19
+field	../schoolapp/migrations/0006_auto_20170903_0916.py	/^            field=models.CharField(default=uuid.uuid4, max_length=200, verbose_name='渠道ID'),$/;"	kind:variable	line:19
+field	../schoolapp/migrations/0007_auto_20170903_0917.py	/^            field=models.CharField(default=uuid.uuid4, editable=False, max_length=200, verbose_name='渠道ID'),$/;"	kind:variable	line:19
+field	../schoolapp/migrations/0008_marketchannel_create_at.py	/^            field=models.DateTimeField(auto_now_add=True, default=django.utils.timezone.now, verbose_name='添加时间'),$/;"	kind:variable	line:19
+field	../schoolapp/migrations/0009_auto_20170903_0923.py	/^            field=models.CharField(choices=[('ONLINE', '线上'), ('OFFLINE', '线下')], default='ONLINE', max_length=20, verbose_name='渠道类型'),$/;"	kind:variable	line:18
+field	../schoolapp/migrations/0010_auto_20170903_1019.py	/^            field=models.CharField(blank=True, choices=[('M', '男'), ('F', '女')], default='M', max_length=20, null=True, verbose_name='性别'),$/;"	kind:variable	line:39
+field	../schoolapp/migrations/0010_auto_20170903_1019.py	/^            field=models.CharField(blank=True, max_length=100, null=True, verbose_name='家庭电话'),$/;"	kind:variable	line:44
+field	../schoolapp/migrations/0010_auto_20170903_1019.py	/^            field=models.CharField(blank=True, max_length=100, null=True, verbose_name='家长姓名'),$/;"	kind:variable	line:54
+field	../schoolapp/migrations/0010_auto_20170903_1019.py	/^            field=models.CharField(blank=True, max_length=100, null=True, verbose_name='就读学校'),$/;"	kind:variable	line:64
+field	../schoolapp/migrations/0010_auto_20170903_1019.py	/^            field=models.CharField(blank=True, max_length=100, null=True, verbose_name='手机'),$/;"	kind:variable	line:49
+field	../schoolapp/migrations/0010_auto_20170903_1019.py	/^            field=models.CharField(blank=True, max_length=100, null=True, verbose_name='跟踪状态'),$/;"	kind:variable	line:74
+field	../schoolapp/migrations/0010_auto_20170903_1019.py	/^            field=models.DateField(blank=True, max_length=100, null=True, verbose_name='生日'),$/;"	kind:variable	line:34
+field	../schoolapp/migrations/0010_auto_20170903_1019.py	/^            field=models.DateField(blank=True, max_length=100, null=True, verbose_name='诺到时间'),$/;"	kind:variable	line:59
+field	../schoolapp/migrations/0010_auto_20170903_1019.py	/^            field=models.PositiveIntegerField(blank=True, null=True, verbose_name='跟踪次数'),$/;"	kind:variable	line:69
+field	../schoolapp/migrations/0011_auto_20170903_1105.py	/^            field=models.CharField(auto_created=True, blank=True, max_length=100, null=True, verbose_name='学员工编号'),$/;"	kind:variable	line:63
+field	../schoolapp/migrations/0011_auto_20170903_1105.py	/^            field=models.CharField(blank=True, max_length=100, null=True, verbose_name='学员姓名'),$/;"	kind:variable	line:58
+field	../schoolapp/migrations/0011_auto_20170903_1105.py	/^            field=models.CharField(blank=True, max_length=100, null=True, verbose_name='推荐人'),$/;"	kind:variable	line:43
+field	../schoolapp/migrations/0011_auto_20170903_1105.py	/^            field=models.CharField(blank=True, max_length=100, null=True, verbose_name='英文名'),$/;"	kind:variable	line:53
+field	../schoolapp/migrations/0011_auto_20170903_1105.py	/^            field=models.DateTimeField(blank=True, max_length=100, null=True, verbose_name='登记日期'),$/;"	kind:variable	line:48
+field	../schoolapp/migrations/0011_auto_20170903_1105.py	/^            field=models.EmailField(blank=True, max_length=100, null=True, verbose_name='电子邮箱'),$/;"	kind:variable	line:38
+field	../schoolapp/migrations/0011_auto_20170903_1105.py	/^            field=models.PositiveIntegerField(default=0, verbose_name='跟踪次数'),$/;"	kind:variable	line:68
+field	../schoolapp/migrations/0012_auto_20170903_1233.py	/^            field=models.CharField(auto_created=True, blank=True, max_length=100, null=True, verbose_name='学员编号'),$/;"	kind:variable	line:127
+field	../schoolapp/migrations/0012_auto_20170903_1233.py	/^            field=models.CharField(blank=True, choices=[('tmk-out', 'tmk-out'), ('tmk-in', 'tmk-in'), ('walk-in', 'walk-in')], max_length=100, null=True, verbose_name='方式'),$/;"	kind:variable	line:112
+field	../schoolapp/migrations/0012_auto_20170903_1233.py	/^            field=models.CharField(blank=True, max_length=100, null=True, verbose_name='证件号'),$/;"	kind:variable	line:117
+field	../schoolapp/migrations/0012_auto_20170903_1233.py	/^            field=models.DateTimeField(blank=True, max_length=100, null=True, verbose_name='登记日期'),$/;"	kind:variable	line:122
+field	../schoolapp/migrations/0012_auto_20170903_1233.py	/^            field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='schoolapp.CoursePlan', verbose_name='课程'),$/;"	kind:variable	line:132
+field	../schoolapp/migrations/0012_auto_20170903_1233.py	/^            field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='schoolapp.Student', verbose_name='学生'),$/;"	kind:variable	line:137
+field	../schoolapp/migrations/0012_auto_20170903_1233.py	/^            field=models.ManyToManyField(to='schoolapp.ClassTimeSlot'),$/;"	kind:variable	line:142
+fields	../schoolapp/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:21
+fields	../schoolapp/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:28
+fields	../schoolapp/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:36
+fields	../schoolapp/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:51
+fields	../schoolapp/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:58
+fields	../schoolapp/migrations/0002_auto_20170903_0907.py	/^            fields=[$/;"	kind:variable	line:18
+fields	../schoolapp/migrations/0012_auto_20170903_1233.py	/^            fields=[$/;"	kind:variable	line:20
+fields	../schoolapp/migrations/0012_auto_20170903_1233.py	/^            fields=[$/;"	kind:variable	line:31
+fields	../schoolapp/migrations/0012_auto_20170903_1233.py	/^            fields=[$/;"	kind:variable	line:38
+fields	../schoolapp/migrations/0012_auto_20170903_1233.py	/^            fields=[$/;"	kind:variable	line:46
+fields	../schoolapp/migrations/0012_auto_20170903_1233.py	/^            fields=[$/;"	kind:variable	line:60
+fields	../schoolapp/migrations/0012_auto_20170903_1233.py	/^            fields=[$/;"	kind:variable	line:70
+fields	../schoolapp/migrations/0012_auto_20170903_1233.py	/^            fields=[$/;"	kind:variable	line:77
+fields	../schoolapp/migrations/0012_auto_20170903_1233.py	/^            fields=[$/;"	kind:variable	line:86
+gender	../schoolapp/models.py	/^    gender = models.CharField(max_length=20, null=True, blank=True, choices=GENDER_CHOICES, verbose_name="性别", default=GENDER_CHOICES[0][0])$/;"	kind:variable	line:50
+get_wsgi_application	../schoolcrm/wsgi.py	/^from django.core.wsgi import get_wsgi_application$/;"	kind:namespace	line:12
+head	../schoolapp/models.py	/^    head = models.ForeignKey(Staff, null=True, blank=True, related_name="head", verbose_name="班主任")$/;"	kind:variable	line:187
+home_phone	../schoolapp/models.py	/^    home_phone = models.CharField(max_length=100, null=True, blank=True, verbose_name="家庭电话")$/;"	kind:variable	line:53
+id_number	../schoolapp/models.py	/^    id_number = models.CharField(max_length=100, blank=True, null=True, verbose_name="证件号")$/;"	kind:variable	line:65
+include	../schoolcrm/urls.py	/^from django.conf.urls import url, include$/;"	kind:namespace	line:16
+index	../schoolapp/views.py	/^def index(request):$/;"	kind:function	line:4
+initial	../schoolapp/migrations/0001_initial.py	/^    initial = True$/;"	kind:variable	line:12
+isActive	../schoolapp/models.py	/^    isActive = models.BooleanField(default=bool, verbose_name="启用")$/;"	kind:variable	line:133
+is_enabled	../schoolapp/models.py	/^    is_enabled = models.BooleanField(default=False, verbose_name="是否启用")$/;"	kind:variable	line:191
+is_resign	../schoolapp/models.py	/^    is_resign = models.BooleanField(default=False, verbose_name="续约")$/;"	kind:variable	line:227
+level	../schoolapp/models.py	/^    level = models.IntegerField(blank=False, null=False, verbose_name="课程级别")$/;"	kind:variable	line:205
+manage.py	../manage.py	1;"	kind:file	line:1
+migrations	../schoolapp/migrations/0001_initial.py	/^from django.db import migrations, models$/;"	kind:namespace	line:6
+migrations	../schoolapp/migrations/0002_auto_20170903_0907.py	/^from django.db import migrations, models$/;"	kind:namespace	line:5
+migrations	../schoolapp/migrations/0003_auto_20170903_0907.py	/^from django.db import migrations, models$/;"	kind:namespace	line:5
+migrations	../schoolapp/migrations/0004_auto_20170903_0912.py	/^from django.db import migrations, models$/;"	kind:namespace	line:5
+migrations	../schoolapp/migrations/0005_auto_20170903_0915.py	/^from django.db import migrations, models$/;"	kind:namespace	line:5
+migrations	../schoolapp/migrations/0006_auto_20170903_0916.py	/^from django.db import migrations, models$/;"	kind:namespace	line:5
+migrations	../schoolapp/migrations/0007_auto_20170903_0917.py	/^from django.db import migrations, models$/;"	kind:namespace	line:5
+migrations	../schoolapp/migrations/0008_marketchannel_create_at.py	/^from django.db import migrations, models$/;"	kind:namespace	line:5
+migrations	../schoolapp/migrations/0009_auto_20170903_0923.py	/^from django.db import migrations, models$/;"	kind:namespace	line:5
+migrations	../schoolapp/migrations/0010_auto_20170903_1019.py	/^from django.db import migrations, models$/;"	kind:namespace	line:5
+migrations	../schoolapp/migrations/0011_auto_20170903_1105.py	/^from django.db import migrations, models$/;"	kind:namespace	line:5
+migrations	../schoolapp/migrations/0012_auto_20170903_1233.py	/^from django.db import migrations, models$/;"	kind:namespace	line:6
+mobile_phone	../schoolapp/models.py	/^    mobile_phone = models.CharField(max_length=100, null=True, blank=True)$/;"	kind:variable	line:79
+mobile_phone	../schoolapp/models.py	/^    mobile_phone = models.CharField(max_length=100, null=True, blank=True)$/;"	kind:variable	line:92
+mobile_phone	../schoolapp/models.py	/^    mobile_phone = models.CharField(max_length=100, null=True, blank=True, verbose_name="手机")$/;"	kind:variable	line:52
+model_name	../schoolapp/migrations/0002_auto_20170903_0907.py	/^            model_name='marketchannel',$/;"	kind:variable	line:24
+model_name	../schoolapp/migrations/0002_auto_20170903_0907.py	/^            model_name='marketchannel',$/;"	kind:variable	line:29
+model_name	../schoolapp/migrations/0002_auto_20170903_0907.py	/^            model_name='marketchannel',$/;"	kind:variable	line:34
+model_name	../schoolapp/migrations/0002_auto_20170903_0907.py	/^            model_name='marketchannel',$/;"	kind:variable	line:39
+model_name	../schoolapp/migrations/0003_auto_20170903_0907.py	/^            model_name='student',$/;"	kind:variable	line:16
+model_name	../schoolapp/migrations/0004_auto_20170903_0912.py	/^            model_name='center',$/;"	kind:variable	line:16
+model_name	../schoolapp/migrations/0004_auto_20170903_0912.py	/^            model_name='center',$/;"	kind:variable	line:21
+model_name	../schoolapp/migrations/0004_auto_20170903_0912.py	/^            model_name='classconsultant',$/;"	kind:variable	line:26
+model_name	../schoolapp/migrations/0004_auto_20170903_0912.py	/^            model_name='operationchannel',$/;"	kind:variable	line:36
+model_name	../schoolapp/migrations/0004_auto_20170903_0912.py	/^            model_name='student',$/;"	kind:variable	line:31
+model_name	../schoolapp/migrations/0005_auto_20170903_0915.py	/^            model_name='marketchannel',$/;"	kind:variable	line:17
+model_name	../schoolapp/migrations/0006_auto_20170903_0916.py	/^            model_name='marketchannel',$/;"	kind:variable	line:17
+model_name	../schoolapp/migrations/0007_auto_20170903_0917.py	/^            model_name='marketchannel',$/;"	kind:variable	line:17
+model_name	../schoolapp/migrations/0008_marketchannel_create_at.py	/^            model_name='marketchannel',$/;"	kind:variable	line:17
+model_name	../schoolapp/migrations/0009_auto_20170903_0923.py	/^            model_name='marketchannel',$/;"	kind:variable	line:16
+model_name	../schoolapp/migrations/0010_auto_20170903_1019.py	/^            model_name='student',$/;"	kind:variable	line:32
+model_name	../schoolapp/migrations/0010_auto_20170903_1019.py	/^            model_name='student',$/;"	kind:variable	line:37
+model_name	../schoolapp/migrations/0010_auto_20170903_1019.py	/^            model_name='student',$/;"	kind:variable	line:42
+model_name	../schoolapp/migrations/0010_auto_20170903_1019.py	/^            model_name='student',$/;"	kind:variable	line:47
+model_name	../schoolapp/migrations/0010_auto_20170903_1019.py	/^            model_name='student',$/;"	kind:variable	line:52
+model_name	../schoolapp/migrations/0010_auto_20170903_1019.py	/^            model_name='student',$/;"	kind:variable	line:57
+model_name	../schoolapp/migrations/0010_auto_20170903_1019.py	/^            model_name='student',$/;"	kind:variable	line:62
+model_name	../schoolapp/migrations/0010_auto_20170903_1019.py	/^            model_name='student',$/;"	kind:variable	line:67
+model_name	../schoolapp/migrations/0010_auto_20170903_1019.py	/^            model_name='student',$/;"	kind:variable	line:72
+model_name	../schoolapp/migrations/0011_auto_20170903_1105.py	/^            model_name='student',$/;"	kind:variable	line:36
+model_name	../schoolapp/migrations/0011_auto_20170903_1105.py	/^            model_name='student',$/;"	kind:variable	line:41
+model_name	../schoolapp/migrations/0011_auto_20170903_1105.py	/^            model_name='student',$/;"	kind:variable	line:46
+model_name	../schoolapp/migrations/0011_auto_20170903_1105.py	/^            model_name='student',$/;"	kind:variable	line:51
+model_name	../schoolapp/migrations/0011_auto_20170903_1105.py	/^            model_name='student',$/;"	kind:variable	line:56
+model_name	../schoolapp/migrations/0011_auto_20170903_1105.py	/^            model_name='student',$/;"	kind:variable	line:61
+model_name	../schoolapp/migrations/0011_auto_20170903_1105.py	/^            model_name='student',$/;"	kind:variable	line:66
+model_name	../schoolapp/migrations/0012_auto_20170903_1233.py	/^            model_name='classroomtimeslotmanagement',$/;"	kind:variable	line:140
+model_name	../schoolapp/migrations/0012_auto_20170903_1233.py	/^            model_name='contractmanagement',$/;"	kind:variable	line:130
+model_name	../schoolapp/migrations/0012_auto_20170903_1233.py	/^            model_name='contractmanagement',$/;"	kind:variable	line:135
+model_name	../schoolapp/migrations/0012_auto_20170903_1233.py	/^            model_name='student',$/;"	kind:variable	line:110
+model_name	../schoolapp/migrations/0012_auto_20170903_1233.py	/^            model_name='student',$/;"	kind:variable	line:115
+model_name	../schoolapp/migrations/0012_auto_20170903_1233.py	/^            model_name='student',$/;"	kind:variable	line:120
+model_name	../schoolapp/migrations/0012_auto_20170903_1233.py	/^            model_name='student',$/;"	kind:variable	line:125
+models	../schoolapp/admin.py	/^from schoolapp import models$/;"	kind:namespace	line:3
+models	../schoolapp/migrations/0001_initial.py	/^from django.db import migrations, models$/;"	kind:namespace	line:6
+models	../schoolapp/migrations/0001_initial.py	/^import django.db.models.deletion$/;"	kind:namespace	line:7
+models	../schoolapp/migrations/0002_auto_20170903_0907.py	/^from django.db import migrations, models$/;"	kind:namespace	line:5
+models	../schoolapp/migrations/0002_auto_20170903_0907.py	/^import django.db.models.deletion$/;"	kind:namespace	line:6
+models	../schoolapp/migrations/0003_auto_20170903_0907.py	/^from django.db import migrations, models$/;"	kind:namespace	line:5
+models	../schoolapp/migrations/0004_auto_20170903_0912.py	/^from django.db import migrations, models$/;"	kind:namespace	line:5
+models	../schoolapp/migrations/0005_auto_20170903_0915.py	/^from django.db import migrations, models$/;"	kind:namespace	line:5
+models	../schoolapp/migrations/0006_auto_20170903_0916.py	/^from django.db import migrations, models$/;"	kind:namespace	line:5
+models	../schoolapp/migrations/0007_auto_20170903_0917.py	/^from django.db import migrations, models$/;"	kind:namespace	line:5
+models	../schoolapp/migrations/0008_marketchannel_create_at.py	/^from django.db import migrations, models$/;"	kind:namespace	line:5
+models	../schoolapp/migrations/0009_auto_20170903_0923.py	/^from django.db import migrations, models$/;"	kind:namespace	line:5
+models	../schoolapp/migrations/0010_auto_20170903_1019.py	/^from django.db import migrations, models$/;"	kind:namespace	line:5
+models	../schoolapp/migrations/0011_auto_20170903_1105.py	/^from django.db import migrations, models$/;"	kind:namespace	line:5
+models	../schoolapp/migrations/0012_auto_20170903_1233.py	/^from django.db import migrations, models$/;"	kind:namespace	line:6
+models	../schoolapp/migrations/0012_auto_20170903_1233.py	/^import django.db.models.deletion$/;"	kind:namespace	line:7
+models	../schoolapp/models.py	/^from django.db import models$/;"	kind:namespace	line:5
+models.py	../schoolapp/models.py	1;"	kind:file	line:1
+name	../schoolapp/apps.py	/^    name = 'schoolapp'$/;"	kind:variable	line:5
+name	../schoolapp/migrations/0001_initial.py	/^            name='Center',$/;"	kind:variable	line:20
+name	../schoolapp/migrations/0001_initial.py	/^            name='ClassConsultant',$/;"	kind:variable	line:27
+name	../schoolapp/migrations/0001_initial.py	/^            name='MarketChannel',$/;"	kind:variable	line:35
+name	../schoolapp/migrations/0001_initial.py	/^            name='Note',$/;"	kind:variable	line:50
+name	../schoolapp/migrations/0001_initial.py	/^            name='Student',$/;"	kind:variable	line:57
+name	../schoolapp/migrations/0002_auto_20170903_0907.py	/^            name='OperationChannel',$/;"	kind:variable	line:17
+name	../schoolapp/migrations/0002_auto_20170903_0907.py	/^            name='channel_id',$/;"	kind:variable	line:25
+name	../schoolapp/migrations/0002_auto_20170903_0907.py	/^            name='fee',$/;"	kind:variable	line:30
+name	../schoolapp/migrations/0002_auto_20170903_0907.py	/^            name='isActive',$/;"	kind:variable	line:35
+name	../schoolapp/migrations/0002_auto_20170903_0907.py	/^            name='operation_channel_type',$/;"	kind:variable	line:40
+name	../schoolapp/migrations/0003_auto_20170903_0907.py	/^            name='trace_count',$/;"	kind:variable	line:17
+name	../schoolapp/migrations/0004_auto_20170903_0912.py	/^            name='address',$/;"	kind:variable	line:22
+name	../schoolapp/migrations/0004_auto_20170903_0912.py	/^            name='name',$/;"	kind:variable	line:27
+name	../schoolapp/migrations/0004_auto_20170903_0912.py	/^            name='name',$/;"	kind:variable	line:32
+name	../schoolapp/migrations/0004_auto_20170903_0912.py	/^            name='name',$/;"	kind:variable	line:37
+name	../schoolapp/migrations/0005_auto_20170903_0915.py	/^            name='channel_id',$/;"	kind:variable	line:18
+name	../schoolapp/migrations/0006_auto_20170903_0916.py	/^            name='channel_id',$/;"	kind:variable	line:18
+name	../schoolapp/migrations/0007_auto_20170903_0917.py	/^            name='channel_id',$/;"	kind:variable	line:18
+name	../schoolapp/migrations/0008_marketchannel_create_at.py	/^            name='create_at',$/;"	kind:variable	line:18
+name	../schoolapp/migrations/0009_auto_20170903_0923.py	/^            name='channel_type',$/;"	kind:variable	line:17
+name	../schoolapp/migrations/0010_auto_20170903_1019.py	/^            name='birth',$/;"	kind:variable	line:33
+name	../schoolapp/migrations/0010_auto_20170903_1019.py	/^            name='center',$/;"	kind:variable	line:16
+name	../schoolapp/migrations/0010_auto_20170903_1019.py	/^            name='gender',$/;"	kind:variable	line:38
+name	../schoolapp/migrations/0010_auto_20170903_1019.py	/^            name='home_phone',$/;"	kind:variable	line:43
+name	../schoolapp/migrations/0010_auto_20170903_1019.py	/^            name='marketchannel',$/;"	kind:variable	line:20
+name	../schoolapp/migrations/0010_auto_20170903_1019.py	/^            name='mobile_phone',$/;"	kind:variable	line:48
+name	../schoolapp/migrations/0010_auto_20170903_1019.py	/^            name='operationchannel',$/;"	kind:variable	line:24
+name	../schoolapp/migrations/0010_auto_20170903_1019.py	/^            name='parent_name',$/;"	kind:variable	line:53
+name	../schoolapp/migrations/0010_auto_20170903_1019.py	/^            name='promised_arrive_time',$/;"	kind:variable	line:58
+name	../schoolapp/migrations/0010_auto_20170903_1019.py	/^            name='school',$/;"	kind:variable	line:63
+name	../schoolapp/migrations/0010_auto_20170903_1019.py	/^            name='student',$/;"	kind:variable	line:28
+name	../schoolapp/migrations/0010_auto_20170903_1019.py	/^            name='trace_count',$/;"	kind:variable	line:68
+name	../schoolapp/migrations/0010_auto_20170903_1019.py	/^            name='trace_status',$/;"	kind:variable	line:73
+name	../schoolapp/migrations/0011_auto_20170903_1105.py	/^            name='center',$/;"	kind:variable	line:20
+name	../schoolapp/migrations/0011_auto_20170903_1105.py	/^            name='created_at',$/;"	kind:variable	line:47
+name	../schoolapp/migrations/0011_auto_20170903_1105.py	/^            name='email',$/;"	kind:variable	line:37
+name	../schoolapp/migrations/0011_auto_20170903_1105.py	/^            name='english_name',$/;"	kind:variable	line:52
+name	../schoolapp/migrations/0011_auto_20170903_1105.py	/^            name='marketchannel',$/;"	kind:variable	line:24
+name	../schoolapp/migrations/0011_auto_20170903_1105.py	/^            name='name',$/;"	kind:variable	line:57
+name	../schoolapp/migrations/0011_auto_20170903_1105.py	/^            name='operationchannel',$/;"	kind:variable	line:28
+name	../schoolapp/migrations/0011_auto_20170903_1105.py	/^            name='refer_person',$/;"	kind:variable	line:42
+name	../schoolapp/migrations/0011_auto_20170903_1105.py	/^            name='student',$/;"	kind:variable	line:32
+name	../schoolapp/migrations/0011_auto_20170903_1105.py	/^            name='student_number',$/;"	kind:variable	line:62
+name	../schoolapp/migrations/0011_auto_20170903_1105.py	/^            name='trace_count',$/;"	kind:variable	line:67
+name	../schoolapp/migrations/0012_auto_20170903_1233.py	/^            name='ClassRoom',$/;"	kind:variable	line:19
+name	../schoolapp/migrations/0012_auto_20170903_1233.py	/^            name='ClassRoomTimeSlotManagement',$/;"	kind:variable	line:30
+name	../schoolapp/migrations/0012_auto_20170903_1233.py	/^            name='ClassTimeSlot',$/;"	kind:variable	line:37
+name	../schoolapp/migrations/0012_auto_20170903_1233.py	/^            name='ContractManagement',$/;"	kind:variable	line:45
+name	../schoolapp/migrations/0012_auto_20170903_1233.py	/^            name='CoursePlan',$/;"	kind:variable	line:59
+name	../schoolapp/migrations/0012_auto_20170903_1233.py	/^            name='Department',$/;"	kind:variable	line:69
+name	../schoolapp/migrations/0012_auto_20170903_1233.py	/^            name='Staff',$/;"	kind:variable	line:76
+name	../schoolapp/migrations/0012_auto_20170903_1233.py	/^            name='StartNewClassPlan',$/;"	kind:variable	line:85
+name	../schoolapp/migrations/0012_auto_20170903_1233.py	/^            name='contact_source',$/;"	kind:variable	line:111
+name	../schoolapp/migrations/0012_auto_20170903_1233.py	/^            name='course_plan',$/;"	kind:variable	line:131
+name	../schoolapp/migrations/0012_auto_20170903_1233.py	/^            name='courseconsultant',$/;"	kind:variable	line:106
+name	../schoolapp/migrations/0012_auto_20170903_1233.py	/^            name='id_number',$/;"	kind:variable	line:116
+name	../schoolapp/migrations/0012_auto_20170903_1233.py	/^            name='refer_date',$/;"	kind:variable	line:121
+name	../schoolapp/migrations/0012_auto_20170903_1233.py	/^            name='student',$/;"	kind:variable	line:136
+name	../schoolapp/migrations/0012_auto_20170903_1233.py	/^            name='student_number',$/;"	kind:variable	line:126
+name	../schoolapp/migrations/0012_auto_20170903_1233.py	/^            name='time_slots',$/;"	kind:variable	line:141
+name	../schoolapp/models.py	/^    name = models.CharField (max_length=100, null=True, blank=True)$/;"	kind:variable	line:151
+name	../schoolapp/models.py	/^    name = models.CharField(max_length=100, blank=False, null=False, verbose_name="课程名称")$/;"	kind:variable	line:204
+name	../schoolapp/models.py	/^    name = models.CharField(max_length=100, null=True, blank=True)$/;"	kind:variable	line:158
+name	../schoolapp/models.py	/^    name = models.CharField(max_length=100, null=True, blank=True)$/;"	kind:variable	line:80
+name	../schoolapp/models.py	/^    name = models.CharField(max_length=100, null=True, blank=True)$/;"	kind:variable	line:93
+name	../schoolapp/models.py	/^    name = models.CharField(max_length=100, null=True, blank=True, verbose_name="学员姓名")$/;"	kind:variable	line:48
+name	../schoolapp/models.py	/^    name = models.CharField(max_length=20, blank=False, null=False,$/;"	kind:variable	line:113
+name	../schoolapp/models.py	/^    name = models.CharField(max_length=200, blank=False, null=False)$/;"	kind:variable	line:100
+name	../schoolapp/models.py	/^    name = models.CharField(max_length=200, blank=False, null=False, verbose_name="渠道名称")$/;"	kind:variable	line:128
+new_name	../schoolapp/migrations/0004_auto_20170903_0912.py	/^            new_name='name',$/;"	kind:variable	line:18
+new_name	../schoolapp/migrations/0011_auto_20170903_1105.py	/^            new_name='CourseConsultant',$/;"	kind:variable	line:17
+note	../schoolapp/models.py	/^    note = models.TextField(max_length=1000, null=True, blank=True, verbose_name="备注")$/;"	kind:variable	line:135
+note	../schoolapp/models.py	/^    note = models.TextField(max_length=1000, null=True, blank=True, verbose_name="备注")$/;"	kind:variable	line:192
+note	../schoolapp/models.py	/^    note = models.TextField(null=False, blank=False)$/;"	kind:variable	line:42
+notes	../schoolapp/models.py	/^    notes = GenericRelation(Note)$/;"	kind:variable	line:67
+old_name	../schoolapp/migrations/0004_auto_20170903_0912.py	/^            old_name='center_name',$/;"	kind:variable	line:17
+old_name	../schoolapp/migrations/0011_auto_20170903_1105.py	/^            old_name='ClassConsultant',$/;"	kind:variable	line:16
+operation_channel_type	../schoolapp/models.py	/^    operation_channel_type = models.ForeignKey (OperationChannel, verbose_name="运营渠道")$/;"	kind:variable	line:131
+operations	../schoolapp/migrations/0001_initial.py	/^    operations = [$/;"	kind:variable	line:18
+operations	../schoolapp/migrations/0002_auto_20170903_0907.py	/^    operations = [$/;"	kind:variable	line:15
+operations	../schoolapp/migrations/0003_auto_20170903_0907.py	/^    operations = [$/;"	kind:variable	line:14
+operations	../schoolapp/migrations/0004_auto_20170903_0912.py	/^    operations = [$/;"	kind:variable	line:14
+operations	../schoolapp/migrations/0005_auto_20170903_0915.py	/^    operations = [$/;"	kind:variable	line:15
+operations	../schoolapp/migrations/0006_auto_20170903_0916.py	/^    operations = [$/;"	kind:variable	line:15
+operations	../schoolapp/migrations/0007_auto_20170903_0917.py	/^    operations = [$/;"	kind:variable	line:15
+operations	../schoolapp/migrations/0008_marketchannel_create_at.py	/^    operations = [$/;"	kind:variable	line:15
+operations	../schoolapp/migrations/0009_auto_20170903_0923.py	/^    operations = [$/;"	kind:variable	line:14
+operations	../schoolapp/migrations/0010_auto_20170903_1019.py	/^    operations = [$/;"	kind:variable	line:14
+operations	../schoolapp/migrations/0011_auto_20170903_1105.py	/^    operations = [$/;"	kind:variable	line:14
+operations	../schoolapp/migrations/0012_auto_20170903_1233.py	/^    operations = [$/;"	kind:variable	line:17
+options	../schoolapp/migrations/0010_auto_20170903_1019.py	/^            options={'verbose_name': '中心管理'},$/;"	kind:variable	line:17
+options	../schoolapp/migrations/0010_auto_20170903_1019.py	/^            options={'verbose_name': '学生'},$/;"	kind:variable	line:29
+options	../schoolapp/migrations/0010_auto_20170903_1019.py	/^            options={'verbose_name': '市场渠道管理'},$/;"	kind:variable	line:21
+options	../schoolapp/migrations/0010_auto_20170903_1019.py	/^            options={'verbose_name': '运营渠道管理'},$/;"	kind:variable	line:25
+options	../schoolapp/migrations/0011_auto_20170903_1105.py	/^            options={'verbose_name': '中心管理', 'verbose_name_plural': '中心管理'},$/;"	kind:variable	line:21
+options	../schoolapp/migrations/0011_auto_20170903_1105.py	/^            options={'verbose_name': '学生管理', 'verbose_name_plural': '学生管理'},$/;"	kind:variable	line:33
+options	../schoolapp/migrations/0011_auto_20170903_1105.py	/^            options={'verbose_name': '市场渠道管理', 'verbose_name_plural': '市场渠道管理'},$/;"	kind:variable	line:25
+options	../schoolapp/migrations/0011_auto_20170903_1105.py	/^            options={'verbose_name': '运营渠道管理', 'verbose_name_plural': '运营渠道管理'},$/;"	kind:variable	line:29
+options	../schoolapp/migrations/0012_auto_20170903_1233.py	/^            options={$/;"	kind:variable	line:100
+options	../schoolapp/migrations/0012_auto_20170903_1233.py	/^            options={$/;"	kind:variable	line:24
+options	../schoolapp/migrations/0012_auto_20170903_1233.py	/^            options={$/;"	kind:variable	line:53
+options	../schoolapp/migrations/0012_auto_20170903_1233.py	/^            options={'verbose_name': '课程顾问', 'verbose_name_plural': '课程顾问'},$/;"	kind:variable	line:107
+os	../manage.py	/^import os$/;"	kind:namespace	line:2
+os	../schoolcrm/settings.py	/^import os$/;"	kind:namespace	line:13
+os	../schoolcrm/wsgi.py	/^import os$/;"	kind:namespace	line:10
+parent_name	../schoolapp/models.py	/^    parent_name = models.CharField(max_length=100, null=True, blank=True, verbose_name="家长姓名")$/;"	kind:variable	line:51
+place	../schoolapp/models.py	/^    place = models.CharField(max_length=200, null=False, blank=False, verbose_name="地点")$/;"	kind:variable	line:134
+plan_id	../schoolapp/models.py	/^    plan_id = models.AutoField (primary_key=True, verbose_name="开班计划ID")$/;"	kind:variable	line:180
+preserve_default	../schoolapp/migrations/0008_marketchannel_create_at.py	/^            preserve_default=False,$/;"	kind:variable	line:20
+promised_arrive_time	../schoolapp/models.py	/^    promised_arrive_time = models.DateField(max_length=100, null=True, blank=True, verbose_name="诺到时间")$/;"	kind:variable	line:56
+reason	../schoolapp/models.py	/^    reason = models.CharField(max_length=200, null=True, blank=True)$/;"	kind:variable	line:226
+refer_date	../schoolapp/models.py	/^    refer_date = models.DateTimeField(max_length=100, null=True, blank=True, verbose_name="登记日期")$/;"	kind:variable	line:66
+refer_person	../schoolapp/models.py	/^    refer_person = models.CharField(max_length=100, blank=True, null=True, verbose_name="推荐人")$/;"	kind:variable	line:61
+render	../schoolapp/views.py	/^from django.shortcuts import render$/;"	kind:namespace	line:1
+school	../schoolapp/models.py	/^    school = models.CharField(max_length=100, null=True, blank=True, verbose_name="就读学校")$/;"	kind:variable	line:59
+settings	../schoolapp/migrations/0001_initial.py	/^from django.conf import settings$/;"	kind:namespace	line:5
+settings	../schoolapp/migrations/0012_auto_20170903_1233.py	/^from django.conf import settings$/;"	kind:namespace	line:5
+settings.py	../schoolcrm/settings.py	1;"	kind:file	line:1
+startTime	../schoolapp/models.py	/^    startTime = models.TimeField(max_length=100, null=False, blank=False)$/;"	kind:variable	line:169
+start_date	../schoolapp/models.py	/^    start_date = models.DateField(max_length=100, null=False, blank=False, verbose_name="开班日期")$/;"	kind:variable	line:182
+student	../schoolapp/models.py	/^    student = models.ForeignKey(Student, verbose_name="学生")$/;"	kind:variable	line:221
+student_number	../schoolapp/models.py	/^    student_number = models.CharField(max_length=100, null=True, blank=True, auto_created=True, verbose_name="学员编号")$/;"	kind:variable	line:47
+sys	../manage.py	/^import sys$/;"	kind:namespace	line:3
+tests.py	../schoolapp/tests.py	1;"	kind:file	line:1
+time_slots	../schoolapp/models.py	/^    time_slots = models.ManyToManyField(ClassTimeSlot)$/;"	kind:variable	line:174
+timezone	../schoolapp/migrations/0008_marketchannel_create_at.py	/^import django.utils.timezone$/;"	kind:namespace	line:6
+trace_count	../schoolapp/models.py	/^    trace_count = models.PositiveIntegerField(verbose_name="跟踪次数", default=0)$/;"	kind:variable	line:55
+trace_status	../schoolapp/models.py	/^    trace_status = models.CharField(max_length=100, null=True, blank=True, verbose_name="跟踪状态")$/;"	kind:variable	line:54
+tuition	../schoolapp/models.py	/^    tuition = models.FloatField(blank=False, null=False, verbose_name="学费")$/;"	kind:variable	line:206
+tuition	../schoolapp/models.py	/^    tuition = models.FloatField(blank=False, null=False, verbose_name="学费")$/;"	kind:variable	line:223
+unicode_literals	../schoolapp/migrations/0001_initial.py	/^from __future__ import unicode_literals$/;"	kind:namespace	line:3
+unicode_literals	../schoolapp/migrations/0002_auto_20170903_0907.py	/^from __future__ import unicode_literals$/;"	kind:namespace	line:3
+unicode_literals	../schoolapp/migrations/0003_auto_20170903_0907.py	/^from __future__ import unicode_literals$/;"	kind:namespace	line:3
+unicode_literals	../schoolapp/migrations/0004_auto_20170903_0912.py	/^from __future__ import unicode_literals$/;"	kind:namespace	line:3
+unicode_literals	../schoolapp/migrations/0005_auto_20170903_0915.py	/^from __future__ import unicode_literals$/;"	kind:namespace	line:3
+unicode_literals	../schoolapp/migrations/0006_auto_20170903_0916.py	/^from __future__ import unicode_literals$/;"	kind:namespace	line:3
+unicode_literals	../schoolapp/migrations/0007_auto_20170903_0917.py	/^from __future__ import unicode_literals$/;"	kind:namespace	line:3
+unicode_literals	../schoolapp/migrations/0008_marketchannel_create_at.py	/^from __future__ import unicode_literals$/;"	kind:namespace	line:3
+unicode_literals	../schoolapp/migrations/0009_auto_20170903_0923.py	/^from __future__ import unicode_literals$/;"	kind:namespace	line:3
+unicode_literals	../schoolapp/migrations/0010_auto_20170903_1019.py	/^from __future__ import unicode_literals$/;"	kind:namespace	line:3
+unicode_literals	../schoolapp/migrations/0011_auto_20170903_1105.py	/^from __future__ import unicode_literals$/;"	kind:namespace	line:3
+unicode_literals	../schoolapp/migrations/0012_auto_20170903_1233.py	/^from __future__ import unicode_literals$/;"	kind:namespace	line:3
+url	../schoolapp/urls.py	/^from django.conf.urls import url$/;"	kind:namespace	line:1
+url	../schoolcrm/urls.py	/^from django.conf.urls import url, include$/;"	kind:namespace	line:16
+urlpatterns	../schoolapp/urls.py	/^urlpatterns = [$/;"	kind:variable	line:4
+urlpatterns	../schoolcrm/urls.py	/^urlpatterns = [$/;"	kind:variable	line:21
+urls.py	../schoolapp/urls.py	1;"	kind:file	line:1
+urls.py	../schoolcrm/urls.py	1;"	kind:file	line:1
+user	../schoolapp/models.py	/^    user = models.OneToOneField(User, related_name='consultant')$/;"	kind:variable	line:78
+user	../schoolapp/models.py	/^    user = models.OneToOneField(User, related_name='staff')$/;"	kind:variable	line:91
+user	../schoolapp/models.py	/^    user = models.OneToOneField(User, related_name='student')$/;"	kind:variable	line:46
+utils	../schoolapp/migrations/0008_marketchannel_create_at.py	/^import django.utils.timezone$/;"	kind:namespace	line:6
+uuid	../schoolapp/migrations/0005_auto_20170903_0915.py	/^import uuid$/;"	kind:namespace	line:6
+uuid	../schoolapp/migrations/0006_auto_20170903_0916.py	/^import uuid$/;"	kind:namespace	line:6
+uuid	../schoolapp/migrations/0007_auto_20170903_0917.py	/^import uuid$/;"	kind:namespace	line:6
+uuid	../schoolapp/models.py	/^import uuid$/;"	kind:namespace	line:1
+verbose_name	../schoolapp/models.py	/^                             verbose_name="运营渠道")$/;"	kind:variable	line:115
+verbose_name	../schoolapp/models.py	/^        verbose_name = _("中心管理")$/;"	kind:variable	line:107
+verbose_name	../schoolapp/models.py	/^        verbose_name = _("合同管理")$/;"	kind:variable	line:230
+verbose_name	../schoolapp/models.py	/^        verbose_name = _("学生管理")$/;"	kind:variable	line:73
+verbose_name	../schoolapp/models.py	/^        verbose_name = _("市场渠道管理")$/;"	kind:variable	line:144
+verbose_name	../schoolapp/models.py	/^        verbose_name = _("开班计划")$/;"	kind:variable	line:199
+verbose_name	../schoolapp/models.py	/^        verbose_name = _("教室管理")$/;"	kind:variable	line:164
+verbose_name	../schoolapp/models.py	/^        verbose_name = _("课程顾问")$/;"	kind:variable	line:86
+verbose_name	../schoolapp/models.py	/^        verbose_name = _("运营渠道管理")$/;"	kind:variable	line:121
+verbose_name_plural	../schoolapp/models.py	/^        verbose_name_plural = _("中心管理")$/;"	kind:variable	line:108
+verbose_name_plural	../schoolapp/models.py	/^        verbose_name_plural = _("合同管理")$/;"	kind:variable	line:231
+verbose_name_plural	../schoolapp/models.py	/^        verbose_name_plural = _("学生管理")$/;"	kind:variable	line:74
+verbose_name_plural	../schoolapp/models.py	/^        verbose_name_plural = _("市场渠道管理")$/;"	kind:variable	line:145
+verbose_name_plural	../schoolapp/models.py	/^        verbose_name_plural = _("开班计划")$/;"	kind:variable	line:200
+verbose_name_plural	../schoolapp/models.py	/^        verbose_name_plural = _("教室管理")$/;"	kind:variable	line:165
+verbose_name_plural	../schoolapp/models.py	/^        verbose_name_plural = _("课程顾问")$/;"	kind:variable	line:87
+verbose_name_plural	../schoolapp/models.py	/^        verbose_name_plural = _("运营渠道管理")$/;"	kind:variable	line:122
+views	../schoolapp/urls.py	/^from schoolapp import views$/;"	kind:namespace	line:2
+views.py	../schoolapp/views.py	1;"	kind:file	line:1
+wsgi.py	../schoolcrm/wsgi.py	1;"	kind:file	line:1
