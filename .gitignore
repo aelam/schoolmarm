@@ -2,3 +2,7 @@
 bundles/
 node_modules/
 *.pyc
+build/
+.idea/
+.vscode/
+dist/

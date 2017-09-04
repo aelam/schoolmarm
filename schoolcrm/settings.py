@@ -50,6 +50,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
 ]
 
 ROOT_URLCONF = 'schoolcrm.urls'
@@ -57,8 +58,8 @@ ROOT_URLCONF = 'schoolcrm.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join (BASE_DIR, 'templates')]
-        ,
+        'DIRS': [os.path.join(BASE_DIR, 'templates'), 'frontend/dist'],
+
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -135,7 +136,12 @@ WEBPACK_LOADER = {
 
 
 STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, 'assets'),
+    os.path.join(BASE_DIR, "frontend/dist/static"),
 )
 
 
+CORS_ORIGIN_ALLOW_ALL = True
+
+
+#  Django-VueJS
+# https://zhuanlan.zhihu.com/p/25080236
