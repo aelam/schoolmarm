@@ -1,4 +1,5 @@
 {
     "python.linting.pylintArgs": ["--load-plugins", "pylint_django"],
-    "python.envFile": "${workspaceRoot}/.python-version"
+    "python.envFile": "${workspaceRoot}/.python-version",
+    "python.venvPath": "/usr/local/var/pyenv"
 }

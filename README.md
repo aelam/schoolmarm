@@ -15,8 +15,27 @@
 
 现在不能实时更新
 
+
 ## 安装工具
 
 ```lang=shell
 npm install -g webpack
+```
+
+
+## Python替换pip源
+```
+vi ~/.pip/pip.conf
+
+增加trusted-host 
+  1 [global]$
+  2 index-url = http://pypi.douban.com/simple$
+  3 trusted-host=pypi.douban.com$
+
+```
+
+
+## phantomjs-prebuilt 安装失败
+```
+npm install phantomjs-prebuilt@2.1.14 --ignore-scripts
 ```

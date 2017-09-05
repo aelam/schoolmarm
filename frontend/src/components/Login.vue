@@ -18,7 +18,7 @@
     name: 'hello',
     data() {
       return {
-        msg: '登录',
+        msg: '登录xxx',
       };
     },
   };
