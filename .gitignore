@@ -1,7 +1,6 @@
 *.sqlite3
 bundles/
 *.pyc
-build/
 .idea/
 
 .DS_Store
