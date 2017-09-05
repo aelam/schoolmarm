@@ -1,5 +1,6 @@
 *.sqlite3
 bundles/
+
 *.pyc
 .idea/
 
@@ -19,3 +20,5 @@ selenium-debug.log
 *.ntvs*
 *.njsproj
 *.sln
+.vscode/tags
+
