@@ -129,8 +129,11 @@ STATIC_ROOT = 'static'
 
 WEBPACK_LOADER = {
     'DEFAULT': {
-        'BUNDLE_DIR_NAME': 'bundles/',
-        'STATS_FILE': os.path.join(BASE_DIR, 'webpack-stats.json'),
+        'BUNDLE_DIR_NAME': 'frontend/dist',
+        'STATS_FILE': os.path.join(BASE_DIR, 'frontend/webpack-stats.json'),
+        'CACHE': not DEBUG,
+        'POLL_INTERVAL': 0.1,
+        'TIMEOUT': None,
     }
 }
 
@@ -142,6 +145,3 @@ STATICFILES_DIRS = (
 
 CORS_ORIGIN_ALLOW_ALL = True
 
-
-#  Django-VueJS
-# https://zhuanlan.zhihu.com/p/25080236

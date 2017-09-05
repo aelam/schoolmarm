@@ -3,6 +3,7 @@
     <h1>{{ msg }}</h1>
     <h2>登录</h2>
     <ul>
+      <router-link to="/hello">跳转到你好页</router-link>
       <li><a href="https://vuejs.org" target="_blank">Core Docs</a></li>
       <li><a href="https://forum.vuejs.org" target="_blank">Forum</a></li>
       <li><a href="https://chat.vuejs.org" target="_blank">Community Chat</a></li>
@@ -18,7 +19,7 @@
     name: 'hello',
     data() {
       return {
-        msg: '登录xxx',
+        msg: '登录',
       };
     },
   };
