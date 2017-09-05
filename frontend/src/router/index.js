@@ -3,6 +3,7 @@ import Router from 'vue-router';
 import Hello from '@/components/Hello';
 import Foo from '@/components/Foo';
 import Login from '@/components/Login';
+import TopNavi from '@/components/TopNavi';
 
 Vue.use(Router);
 
@@ -26,5 +27,10 @@ export default new Router({
       component: Login,
     },
 
+    {
+      path: '/navi',
+      name: 'Top Navigations',
+      component: TopNavi,
+    },
   ],
 });
