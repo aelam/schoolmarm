@@ -38,8 +38,15 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'webpack_loader',
+    'rest_framework',
+    'rest_framework.authtoken',
+    'rest_auth',
+    'django.contrib.sites',
+    'allauth',
+    'allauth.account',
+    'rest_auth.registration',
     'schoolapp.apps.SchoolappConfig',
-
+    'snippets.apps.SnippetsConfig',
 ]
 
 MIDDLEWARE = [
@@ -138,10 +145,29 @@ WEBPACK_LOADER = {
 }
 
 
+## 静态文件设置
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, "frontend/dist/static"),
 )
 
-
+## 跨域问题
 CORS_ORIGIN_ALLOW_ALL = True
 
+## Rest设置(http://www.django-rest-framework.org)
+
+REST_FRAMEWORK = {
+    # Use Django's standard `django.contrib.auth` permissions,
+    # or allow read-only access for unauthenticated users.
+    # 'DEFAULT_PERMISSION_CLASSES': [
+    #     'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'
+    # ]
+    'DEFAULT_PERMISSION_CLASSES': (
+        #'rest_framework.permissions.DjangoModelPermissions',
+        'rest_framework.permissions.IsAuthenticated',
+
+    )
+}
+
+
+
+SITE_ID = 1

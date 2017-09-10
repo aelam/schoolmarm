@@ -2,5 +2,6 @@
     "python.linting.pylintArgs": ["--load-plugins", "pylint_django"],
     "python.envFile": "${workspaceRoot}/.python-version",
     "python.venvPath": "/usr/local/var/pyenv",
-    "python.linting.pylintEnabled": false
+    "python.linting.pylintEnabled": false,
+    "python.linting.pylintPath": "/usr/local/var/pyenv/shims/pylint"    
 }

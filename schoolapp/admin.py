@@ -1,5 +1,5 @@
 from django.contrib import admin
-
+from rest_framework.authtoken.admin import TokenAdmin
 from schoolapp import models
 
 
@@ -15,4 +15,5 @@ admin.site.register(models.OperationChannel)
 admin.site.register(models.MarketChannel)
 admin.site.register(models.Note)
 
+TokenAdmin.raw_id_fields = ('user',)
 

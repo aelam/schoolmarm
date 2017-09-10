@@ -37,19 +37,32 @@ CUSTOMER_CONTACT_SOURCE = (
     ("walk-in", "walk-in"),
 )
 
+## 基础信息表
+class Center(models.Model):
+    name = models.CharField(max_length=200, blank=False, null=False)
+    address = models.CharField(max_length=200, blank=True, null=True)
+
+    def __str__(self):
+        return self.name
+
+    class Meta:
+        verbose_name = _("中心管理")
+        verbose_name_plural = _("中心管理")
+
 
 class Note(models.Model):
     note = models.TextField(null=False, blank=False)
 
 
 class Student(models.Model):
-    user = models.OneToOneField(User, related_name='student')
-    student_number = models.CharField(max_length=100, null=True, blank=True, auto_created=True, verbose_name="学员编号")
+    user = models.OneToOneField(User, related_name='student', null=True, blank=True)
+    student_id = models.AutoField(max_length=100, auto_created=True, verbose_name="学员编号", primary_key=True)
     name = models.CharField(max_length=100, null=True, blank=True, verbose_name="学员姓名")
     english_name = models.CharField(max_length=100, null=True, blank=True, verbose_name="英文名")
     gender = models.CharField(max_length=20, null=True, blank=True, choices=GENDER_CHOICES, verbose_name="性别", default=GENDER_CHOICES[0][0])
     parent_name = models.CharField(max_length=100, null=True, blank=True, verbose_name="家长姓名")
     mobile_phone = models.CharField(max_length=100, null=True, blank=True, verbose_name="手机")
+    other_mobile_phone = models.CharField(max_length=100, null=True, blank=True, verbose_name="其他手机")
     home_phone = models.CharField(max_length=100, null=True, blank=True, verbose_name="家庭电话")
     trace_status = models.CharField(max_length=100, null=True, blank=True, verbose_name="跟踪状态")
     trace_count = models.PositiveIntegerField(verbose_name="跟踪次数", default=0)
@@ -60,11 +73,24 @@ class Student(models.Model):
     email = models.EmailField(max_length=100, null=True, blank=True, verbose_name="电子邮箱")
     refer_person = models.CharField(max_length=100, blank=True, null=True, verbose_name="推荐人")
 
+    # 中心
+    center = models.ForeignKey(Center, null=True, blank=True)
+
+    # 方式, 
     contact_source = models.CharField(max_length=100, blank=True, null=True, verbose_name="方式", choices=CUSTOMER_CONTACT_SOURCE)
 
     id_number = models.CharField(max_length=100, blank=True, null=True, verbose_name="证件号")
     refer_date = models.DateTimeField(max_length=100, null=True, blank=True, verbose_name="登记日期")
-    notes = GenericRelation(Note)
+    # notes = GenericRelation(Note)
+    note1 = models.TextField(max_length=1000, null=True, blank=True, verbose_name="备注1")
+    note2 = models.TextField(max_length=1000, null=True, blank=True, verbose_name="备注2")
+
+    sale_person_name = models.CharField(max_length=100, blank=True, null=True, verbose_name="市场推广员")
+    sale_person_id = models.CharField(max_length=100, blank=True, null=True, verbose_name="市场推广员Id")
+
+    record_person_name =  models.CharField(max_length=100, blank=True, null=True, verbose_name="录入员")
+    record_person_id =  models.CharField(max_length=100, blank=True, null=True, verbose_name="录入Id")
+
 
     def __str__(self):
         return self.name
@@ -91,21 +117,10 @@ class Staff(models.Model):
     user = models.OneToOneField(User, related_name='staff')
     mobile_phone = models.CharField(max_length=100, null=True, blank=True)
     name = models.CharField(max_length=100, null=True, blank=True)
+    center = models.ForeignKey(Center) # 中心
 
     def __str__(self):
         return self.name
-
-
-class Center(models.Model):
-    name = models.CharField(max_length=200, blank=False, null=False)
-    address = models.CharField(max_length=200, blank=True, null=True)
-
-    def __str__(self):
-        return self.name
-
-    class Meta:
-        verbose_name = _("中心管理")
-        verbose_name_plural = _("中心管理")
 
 
 # 业务管理
@@ -123,8 +138,7 @@ class OperationChannel(models.Model):
 
 
 class MarketChannel(models.Model):
-    channel_id = models.CharField(max_length=200, null=False, blank=False,
-                                   verbose_name="渠道ID", default=uuid.uuid4, editable=False)
+    #channel_id = models.AutoField(max_length=200, verbose_name="渠道ID", primary_key=True)
     name = models.CharField(max_length=200, blank=False, null=False, verbose_name="渠道名称")
     channel_type = models.CharField(max_length=20, blank=False, null=False, choices=CHANNEL_TYPE_CHOICES,
                                      verbose_name="渠道类型", default=CHANNEL_TYPE_CHOICES[0][0])
@@ -147,13 +161,6 @@ class MarketChannel(models.Model):
 
 ##################################################################################
 # 教务管理
-class Department(models.Model):
-    name = models.CharField (max_length=100, null=True, blank=True)
-
-    def __str__(self):
-        return self.name
-
-
 class ClassRoom(models.Model):
     name = models.CharField(max_length=100, null=True, blank=True)
 

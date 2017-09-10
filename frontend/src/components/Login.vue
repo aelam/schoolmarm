@@ -1,26 +1,27 @@
 <template>
-  <div class="Login">
-    <h1>{{ msg }}</h1>
-    <h2>登录</h2>
-    <ul>
-      <router-link to="/hello">跳转到你好页</router-link>
-      <li><a href="https://vuejs.org" target="_blank">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank">Forum</a></li>
-      <li><a href="https://chat.vuejs.org" target="_blank">Community Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank">Twitter</a></li>
-      <br>
-      <li><a href="http://vuejs-templates.github.io/webpack/" target="_blank">Docs for This Template</a></li>
-    </ul>
-  </div>
+ <div class="log-email">
+  <input type="text" placeholder="用户名" :class="'log-input' + (account==''?' log-input-empty':'')" v-model="account">
+  <input type="password" placeholder="密码" :class="'log-input' + (password==''?' log-input-empty':'')" v-model="password">
+  <a href="javascript:;" rel="external nofollow" class="log-btn" @click="login">Login</a>
+ </div>
 </template>
 
 <script>
   export default {
-    name: 'hello',
+    name: 'Login',
     data() {
       return {
         msg: '登录',
+        account: '',
+        password: '',
+        isLoging: false,
       };
+    },
+
+    methods: {
+      login() {
+        console.log('login click');
+      },
     },
   };
 </script>

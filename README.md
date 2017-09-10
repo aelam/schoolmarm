@@ -84,3 +84,15 @@ vi ~/.pip/pip.conf
 [VSCode Python 的设置](https://donjayamanne.github.io/pythonVSCodeDocs/docs/python-path/)
 
 Python有DjangoDebug模板的配置, 可以只留下两个Django 改名为Django-Debug, 再复制一个Django-Run并删除Debug参数
+
+## Django端
+
+### DRF问题集合
+Cannot apply DjangoModelPermissions on a view that does not set `.queryset` or have a `.get_queryset()` method.
+[DRF API权限问题](https://stackoverflow.com/questions/31335736/cannot-apply-djangomodelpermissions-on-a-view-that-does-not-have-queryset-pro)
+
+[JSON 返回 去除null字段](https://stackoverflow.com/questions/27015931/remove-null-fields-from-django-rest-framework-response)
+
+[API 注册/管理](https://stackoverflow.com/questions/20825029/registering-api-in-apps)
+
+
